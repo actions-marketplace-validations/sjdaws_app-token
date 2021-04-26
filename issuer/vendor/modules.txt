@@ -1,0 +1,23 @@
+# github.com/bradleyfalzon/ghinstallation v1.1.1
+## explicit
+github.com/bradleyfalzon/ghinstallation
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+github.com/dgrijalva/jwt-go
+# github.com/google/go-cmp v0.4.0
+## explicit
+# github.com/google/go-github/v29 v29.0.2
+github.com/google/go-github/v29/github
+# github.com/google/go-github/v34 v34.0.0
+## explicit
+github.com/google/go-github/v34/github
+# github.com/google/go-querystring v1.0.0
+github.com/google/go-querystring/query
+# golang.org/x/crypto v0.0.0-20190927123631-a832865fa7ad
+## explicit
+golang.org/x/crypto/cast5
+golang.org/x/crypto/openpgp
+golang.org/x/crypto/openpgp/armor
+golang.org/x/crypto/openpgp/elgamal
+golang.org/x/crypto/openpgp/errors
+golang.org/x/crypto/openpgp/packet
+golang.org/x/crypto/openpgp/s2k

@@ -1,0 +1,22 @@
+name: "App token"
+description: "Run a GitHub action as an app token when GITHUB_TOKEN is too restrictive."
+
+branding:
+  icon: "file-plus"
+  color: "blue"
+
+inputs:
+  appId:
+    description: "GitHub application identifier."
+    required: true
+  privateKey:
+    description: "Private key used to authenticate as application."
+    required: true
+
+outputs:
+  token:
+    description: "The app token generated from the issuer."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
